@@ -6,7 +6,7 @@ public class Main {
    TraficLight traficLight = new TraficLight("GREEN");
    traficLight.setColor("GREEN");
   // TraficLight.canCrossTheRoad("GREEN");
-    System.out.println(TraficLight.canCrossTheRoad("ROT"));
+    System.out.println(TraficLight.canCrossTheRoad("GREEN"));
 
 
   }
