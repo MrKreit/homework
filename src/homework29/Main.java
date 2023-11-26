@@ -3,21 +3,10 @@ package homework29;
 public class Main {
 
   public static void main(String[] args) {
-   ColorTrafficLight colorsTraficLight = ColorTrafficLight.GREEN;
-    System.out.println(colorsTraficLight.getColor());
- /*  switch (colorsTraficLight) {
-     case GREEN:
-       System.out.println();
-       break;
-     case YELLOW:
-       System.out.println();
-       break;
-     case RED:
-       System.out.println();
-       break;
-   }
-
-  */
+   TraficLight traficLight = new TraficLight("GREEN");
+   traficLight.setColor("GREEN");
+  // TraficLight.canCrossTheRoad("GREEN");
+    System.out.println(TraficLight.canCrossTheRoad("ROT"));
 
 
   }

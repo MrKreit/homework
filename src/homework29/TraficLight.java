@@ -3,20 +3,27 @@ package homework29;
 
 public class TraficLight {
 
-  private String currentTrafficLightColor;
+  private String currentTrafficLight;
 
-  public String getCurrentTrafficLightColor() {
-    return currentTrafficLightColor;
+  public TraficLight(String currentTrafficLight) {
+    this.currentTrafficLight = currentTrafficLight;
   }
 
-  public void setCurrentTrafficLightColor(String currentTrafficLightColor) {
-    this.currentTrafficLightColor = currentTrafficLightColor;
+
+  public String getColor() {
+    return currentTrafficLight;
   }
 
-  //static  boolean canCrossTheRoad(String currentTrafficLightColor) {
-    //return ();
-
-  //}
+  public void setColor(String currentTrafficLight) {
+    this.currentTrafficLight = currentTrafficLight;
+  }
+public static boolean canCrossTheRoad(String color ) {
+    if (color.equals("GREEN")) {
+      return true;
+    } else {
+      return false;
+    }
+}
 
 }
 
