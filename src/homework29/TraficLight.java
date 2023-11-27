@@ -1,6 +1,5 @@
 package homework29;
 
-
 public class TraficLight {
 
   private ColorTrafficLight currentTrafficLight;
@@ -24,19 +23,4 @@ public class TraficLight {
       return false;
     }
   }
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
