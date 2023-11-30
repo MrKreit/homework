@@ -13,17 +13,17 @@ public class Main01 {
       case "march":
       case "april":
       case "may":
-        //System.out.println("This month refers to the season: Spring");
         return "Spring";
       case "june":
       case "july":
       case "august":
         return "Summer";
-      case "septembr":
+      case "september":
       case "october":
-      case "novembr":
+      case "november":
         return "Autumn";
       default:
+        break;
     }
     return ("You have entered incorrect data!");
   }
