@@ -1,22 +1,29 @@
 package task02;
 
 public enum PlanetsOfTheSolarSystem {
-  MERCURY("Mercury"),
-  VENUS("Venus"),
-  EARTH( "Earth"),
+  MERCURY(654, 54),
+  VENUS(7685, 7654),
+  EARTH("Earth"),
   MARS("Mars"),
   JUPITER("Jupiter"),
   SATURN("Saturn"),
   URANUS("Uranus"),
   NEPTUNE("Neptune");
 
-  private String name;
-  private long mass;
-  private int  radius;
 
-  PlanetsOfTheSolarSystem(String name) {// long mass, int radius
+  public String name;
+  public long mass;
+  public int radius;
+
+  PlanetsOfTheSolarSystem(String name) {
     this.name = name;
-   // this.mass = mass;
-   // this.radius = radius;
   }
+  //this.mass = mass;
+  // this.radius = radius;
+
+  PlanetsOfTheSolarSystem(long mass, int radius) {
+    this.mass = mass;
+    this.radius = radius;
+  }
+
 }
