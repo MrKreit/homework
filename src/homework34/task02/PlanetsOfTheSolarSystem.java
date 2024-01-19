@@ -1,4 +1,4 @@
-package task02;
+package homework34.task02;
 
 public enum PlanetsOfTheSolarSystem {
   MERCURY(654, 54),

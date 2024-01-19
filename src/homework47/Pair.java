@@ -1,6 +1,4 @@
-package task01;
-
-import java.util.Arrays;
+package homework47;
 
 public class Pair<T, E>{
 
